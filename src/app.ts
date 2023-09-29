@@ -1,9 +1,9 @@
 import express, { Application, NextFunction, Request, Response } from 'express';
 import cors from 'cors';
-// import globalErrorHandler from './app/middlewares/globalErrorHandler';
 // import routers from './app/routes';
 import httpStatus from 'http-status';
 import cookieParser from 'cookie-parser';
+import globalErrorHandler from './apps/middlewares/globalErrorHandler';
 
 const app: Application = express();
 
@@ -25,7 +25,7 @@ app.get('/', async (req: Request, res: Response) => {
 });
 
 // global error handler
-// app.use(globalErrorHandler);
+app.use(globalErrorHandler);
 
 // handle not found
 app.use((req: Request, res: Response, next: NextFunction) => {
