@@ -17,7 +17,7 @@
   {
     "title": "Psychology Of Money",
     "author": "Morgan Housel",
-    "image": "https://www.justshopindia.com/wp-content/uploads/2020/10/91JHJgPh6LL-768x1162.jpg",
+    "image": "https://m.media-amazon.com/images/I/71g2ednj0JL._SY522_.jpg",
     "price": 195,
     "genre": "Self help",
     "publication": "2021",
@@ -27,6 +27,81 @@
       "Printing quality is not good",
       "Book is very good for reading i liked the book but book condition is like old so please give a new book but the book is very good if you want to read a book for the first time this book is must for you ❤️🤩",
       "This book is really amazing if you want build good habits and beaks bad habits it's really help you."
+    ]
+  },
+  {
+    "title": "The Power of Your Subconscious Mind",
+    "author": "Joseph Murphy",
+    "image": "https://m.media-amazon.com/images/I/71sBtM3Yi5L._SY522_.jpg",
+    "price": 195,
+    "genre": "Self help",
+    "publication": "1963",
+    "rating": 3.8,
+    "comments": [
+      "Such an amazing book, all should read this one to know and to improve your habits. There's a lot more to read and learn from this book Best of luck to all 👍",
+      "Printing quality is not good",
+      "Book is very good for reading i liked the book but book condition is like old so please give a new book but the book is very good if you want to read a book for the first time this book is must for you ❤️🤩",
+      "This book is really amazing if you want build good habits and beaks bad habits it's really help you."
+    ]
+  },
+  {
+    "title": "Object-Oriented Programming with C++",
+    "author": "E. Balagurusamy",
+    "image": "https://m.media-amazon.com/images/I/41sbWdpTgRL._SY445_SX342_.jpg",
+    "price": 618,
+    "genre": "Programming",
+    "publication": "2020",
+    "rating": 4,
+    "comments": [
+      "Only suggested for those who are learning Oops using CPP only not other languages. You can but it makes quite hard to learn.",
+      "Printing quality is not good",
+      "I think if the price can become lower then it is the best for students.",
+      "Book is original.."
+    ]
+  },
+  {
+    "title": "COMPUTING FUNDAMENTALS AND C PROGRAMMING",
+    "author": "E. Balagurusamy",
+    "image": "https://m.media-amazon.com/images/I/51TsoeLmPML.jpg",
+    "price": 601,
+    "genre": "Programming",
+    "publication": "2017",
+    "rating": 4.5,
+    "comments": [
+      "The content is really good, don't listen to nay Sayers,just go further and buy this book which was written by good author.If you're studying Bsc this is the one and only option 😇",
+      "Printing quality is not good",
+      "Nice in condition and fast delivery",
+      "Flow chart symbols explaination is not given But the book is very nice. so i gave 4 star."
+    ]
+  },
+  {
+    "title": "Ram - Scion of Ikshvaku",
+    "author": "Amish Tripathi",
+    "image": "https://m.media-amazon.com/images/I/51TsoeLmPML.jpg",
+    "price": 252,
+    "genre": "mythology",
+    "publication": "2022",
+    "rating": 4.6,
+    "comments": [
+      "Superb writing. Had it not been for sleep, i would have completed this book in a single sitting. The pacing is good and maintains the reader's attention.",
+      "good book to read. it's nice how author explained ramayan in his own version. good work by Amish ji.",
+      "Easy read- definitely got me interested to buy the next one. But not as intriguing as Shiva as of now",
+      "Notwithstanding the contemporary politics that has been embedded into the book rather crudely, the story is still delightful and leaves you in awe of the Scion of Ikshvaku, Prabhu Shri Ram."
+    ]
+  },
+  {
+    "title": "Sita : Warrior of Mithila",
+    "author": "Amish Tripathi",
+    "image": "https://m.media-amazon.com/images/I/81diX2hAH2L._SY522_.jpg",
+    "price": 245,
+    "genre": "mythology",
+    "publication": "2022",
+    "rating": 4.6,
+    "comments": [
+      "After the long wait of 2 years, finally yesterday, 'Sita - Warrior Of Mithila ' was delivered to me ( at 1556 hours ) and I started the book in the late evening and wrapped it in a single sitting. Like the spell bounded the first installment of the Ram Chandra Series, Sita-Warrior of Mithila 'reads with the speed tantamount to any fifth-generation fighter jet. The depiction of a woman warrior justifies the title of the book.",
+      "good book to read. it's nice how author explained ramayan in his own version. good work by Amish ji.",
+      "Below expectations and that's not good at all as my expectations were already low after reading the first book of the series.",
+      "Notwithstanding the contemporary politics that has been embedded into the book rather crudely, the story is still delightful and leaves you in awe of the Scion of Ikshvaku, Prabhu Shri Ram."
     ]
   }
 ]
