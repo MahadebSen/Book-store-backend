@@ -1,6 +1,6 @@
 import express, { Application, NextFunction, Request, Response } from 'express';
 import cors from 'cors';
-// import routers from './app/routes';
+import routers from './apps/routes';
 import httpStatus from 'http-status';
 import cookieParser from 'cookie-parser';
 import globalErrorHandler from './apps/middlewares/globalErrorHandler';
@@ -17,7 +17,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// app.use('/api/v1', routers);
+app.use('/api/v1', routers);
 
 // testing
 app.get('/', async (req: Request, res: Response) => {

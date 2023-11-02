@@ -1,14 +1,9 @@
-import ApiError from '../../../errors/ApiErrors';
+import ApiError from '../../../errors/apiErrors';
 import { IBook } from './books.interface';
 import { BookModel } from './books.model';
 
 const createBook = async (payload: IBook): Promise<IBook | null> => {
   const result = await BookModel.create(payload);
-
-  // Summer --> 02 !== 03
-  // if (academicSemesterTitleCodeMapper[payload.title] !== payload.code) {
-  //   throw new ApiError(httpStatus.BAD_REQUEST, 'Invalid semester code');
-  // }
 
   if (!result) {
     throw new ApiError(400, 'Failed to create semester');
@@ -27,15 +22,6 @@ const updateBook = async (
   id: string,
   payload: Partial<IBook>
 ): Promise<IBook | null> => {
-  // Summer --> 02 !== 03
-  // if (
-  //   payload.title &&
-  //   payload.code &&
-  //   academicSemesterTitleCodeMapper[payload.title] !== payload.code
-  // ) {
-  //   throw new ApiError(httpStatus.BAD_REQUEST, 'Invalid semester code');
-  // }
-
   const result = await BookModel.findByIdAndUpdate({ _id: id }, payload, {
     new: true,
   });
